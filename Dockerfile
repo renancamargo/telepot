@@ -1,8 +1,7 @@
 FROM python:latest
 
 RUN pip install --upgrade pip && \
-pip install telepot \
-pip install requests
+pip install telepot
 
 RUN mkdir -vp /app
 
