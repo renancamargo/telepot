@@ -1,4 +1,4 @@
 FROM python:3
 
 RUN pip install --upgrade pip && \
-pip install telepot
+pip install telepot requests
